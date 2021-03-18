@@ -2,7 +2,7 @@
 An automessaging script made to automatically get items and money in the ever-popular [Dank Memer Discord Bot](https://www.dankmemer.lol)
 
 ## Details
-* Will repeatedly send the `fish`, `hunt`, and `beg` commands
+* Will repeatedly cycle through a user-written list of commands
 * Will automatically type out prompts, e.g. `get the camera ready` when encountering a legendary fish whilst using `pls fish`
 * It is not advised to use `horseshoes` as they break very fast when this bot is operating
 * The bot has a feature that stores necessary data in a file so you do not need to keep filling it out.
