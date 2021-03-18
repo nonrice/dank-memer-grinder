@@ -86,34 +86,27 @@ def copy_text():
         send_message(connect(), text[3], response[front_back_tick + 1:end_back_tick])
         print("Activated text copy " + (datetime.now()).strftime("%H:%M:%S"))
 
-def cycle(period):
-    send_message(connect(), text[3], "pls fish")
-    sleep(3)
-    copy_text()
-    sleep(period)
-    sleep(random() * 7)
-
-    send_message(connect(), text[3], "pls hunt")
-    sleep(3)
-    copy_text()
-    sleep(period)
-    sleep(random() * 7)
-
-    send_message(connect(), text[3], "pls beg")
-    sleep(3)
-    copy_text()
-    sleep(period)
-    sleep(random() * 7)
+def cycle(period, command_list):
+    for command in command_list:
+        send_message(connect(), text[3], command)
+        sleep(3)
+        copy_text()
+        sleep(period)
+        sleep(random() * 7)
 
 def main():
-    period = int(input("Seconds between each command (minimum 15): "))
-    if period < 15:
-        print("Error: please provide a valid period that is 15 seconds or more.")
-        return
+    command_list = []
+    while True:
+        command = input("Add a command to the cycle (type START to stop adding commands and begin using the bot): ")
+        if command == "START":
+            break
+        command_list.append(command)
 
+
+    period = int(input("Seconds between each command: "))
     print("Grinding the bot... " + (datetime.now()).strftime("%H:%M:%S"))
     while True:
-        cycle(period)
+        cycle(period, command_list)
 
 main()
 
