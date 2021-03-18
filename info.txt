@@ -1,1 +1,0 @@
-This document will keep your credentials so you don't need to repeatedly configure the bot.
