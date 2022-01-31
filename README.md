@@ -19,7 +19,8 @@ Follow the instructions carefully. When using for the first time, the program as
 * `Channel URL`: This tells the bot which channel it should send the message in. On the browser version, navigate to the desired channel, and copy the URL from the suarch bar. 
 * `Channel ID`: Same purpose as above. Right click on the channel (from the menu), and press `Copy ID`. If you don't see the `Copy ID` option, go into settings and turn on `Developer` from the Advanced menu.
 
+[Made by @nonrice on Github.](https://github.com/nonrice)
+
 ## Final Words
-Thank you for using my program! It makes me happy to see other people using my work. [Made by @nonrice on Github.](https://github.com/nonrice)
 
 Do take note that leaving this program running for long times (around 6+ hours) and many consecutive days will earn you a blacklist or a ban from the bot. That said, it is usually fine to use it for a few hours, ocassionally. 
