@@ -1,3 +1,5 @@
+### This repository has been archived. I do not plan on maintaining or improving any part of this project. The project still works in its current state.
+
 # Dank Memer Grinder
 An automessaging script made to automatically get items and money in the ever-popular [Dank Memer Discord Bot](https://www.dankmemer.lol)
 
